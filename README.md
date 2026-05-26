@@ -22,7 +22,6 @@ This repo contains a number of related tools, many of which need to be built and
 /desktop                     -- Verbatim for desktop Word, and associated tools/plugins
 /docs                        -- Documentation site at docs.paperlessdebate.com, built with Docusaurus
 /gdocs                       -- Google docs port of Verbatim
-/timer                       -- Cross-platform debate timer built with Tauri
 /owa                         -- Office Web Apps port of Verbatim
 ```
 
