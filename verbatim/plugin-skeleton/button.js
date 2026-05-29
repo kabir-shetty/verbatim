@@ -1,5 +1,4 @@
 function getToolbarItems() {
-    console.log()
     let items = {
       guid: window.Asc.plugin.info.guid,
       tabs: [{

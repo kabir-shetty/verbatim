@@ -10,7 +10,7 @@
         "isViewer": false,
         "EditorsSupport": ["word"],
         "isVisual": false,
-        "isModal": true,
+        "isModal": false,
         "isInsideMode": false,
         "initDataType": "none",
         "initData": "",
