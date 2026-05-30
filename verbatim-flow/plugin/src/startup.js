@@ -1,10 +1,12 @@
 window.Asc.plugin.init = function () {
-    // Setting default values for the first row of cells
-    Api.GetCell(0, 0).Value = "1AC";
-    Api.GetCell(1, 0).Value = "1NC";
-    Api.GetCell(2, 0).Value = "2AC";
-    Api.GetCell(3, 0).Value = "Block";
-    Api.GetCell(4, 0).Value = "1AR";
-    Api.GetCell(5, 0).Value = "2NR";
-    Api.GetCell(6, 0).Value = "2AR";
+    this.callCommand(function () {
+        var oSheet = Api.GetActiveSheet();
+        oSheet.GetRangeByNumber(0, 0).SetValue("1AC");
+        oSheet.GetRangeByNumber(0, 1).SetValue("1NC");
+        oSheet.GetRangeByNumber(0, 2).SetValue("2AC");
+        oSheet.GetRangeByNumber(0, 3).SetValue("Block");
+        oSheet.GetRangeByNumber(0, 4).SetValue("1AR");
+        oSheet.GetRangeByNumber(0, 5).SetValue("2NR");
+        oSheet.GetRangeByNumber(0, 6).SetValue("2AR");
+    });
 }
