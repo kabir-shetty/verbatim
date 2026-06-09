@@ -1,7 +1,7 @@
 Attribute VB_Name = "License"
 '@IgnoreModule EmptyModule
 ' Verbatim Flow
-' Copyright © 2023 Aaron Hardy
+' Copyright ï¿½ 2023 Aaron Hardy
 ' https://paperlessdebate.com
 ' support@paperlessdebate.com
 '
